@@ -2,6 +2,10 @@ import React from 'react'
 
 const WeatherBox = ({weather}) => {
     console.log("weather?", weather)
+    // let tt = weather?.main.temp
+    // console.log("temp num", tt)
+    // let celsius = tt.toFixed(1)
+    // let faren = celsius *1.8+32
     return (
         <div className='weather-box'>
             <div>{weather?.name}</div>
